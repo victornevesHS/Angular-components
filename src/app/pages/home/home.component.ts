@@ -13,7 +13,12 @@ export class HomeComponent implements OnInit {
 }
 
   ngOnInit(): void {
-    this.servicoPromocao.listar
+    this.servicoPromocao.listar()
+    .subscribe(
+      reposta => {
+          console.log(reposta)
+      }
+    )
   }
 
 }

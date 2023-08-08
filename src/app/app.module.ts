@@ -26,6 +26,7 @@ import { MatNativeDateModule } from '@angular/material/core';
 import { ModalComponent } from './shared/modal/modal.component';
 import { MatDialogModule } from '@angular/material/dialog';
 import { HttpClientModule } from '@angular/common/http';
+import { PromocoesComponent } from 'src/app/pages/home/promocoes/promocoes.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +40,8 @@ import { HttpClientModule } from '@angular/common/http';
     CardBuscaComponent,
     CardDepoimentoComponent,
     FormBuscaComponent,
-    ModalComponent
+    ModalComponent,
+    PromocoesComponent
   ],
   imports: [
     BrowserModule,
