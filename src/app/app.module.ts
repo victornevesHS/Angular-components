@@ -27,6 +27,7 @@ import { ModalComponent } from './shared/modal/modal.component';
 import { MatDialogModule } from '@angular/material/dialog';
 import { HttpClientModule } from '@angular/common/http';
 import { PromocoesComponent } from 'src/app/pages/home/promocoes/promocoes.component';
+import { BotaoControleComponent } from './shared/botao-controle/botao-controle.component';
 
 @NgModule({
   declarations: [
@@ -41,7 +42,8 @@ import { PromocoesComponent } from 'src/app/pages/home/promocoes/promocoes.compo
     CardDepoimentoComponent,
     FormBuscaComponent,
     ModalComponent,
-    PromocoesComponent
+    PromocoesComponent,
+    BotaoControleComponent
   ],
   imports: [
     BrowserModule,
